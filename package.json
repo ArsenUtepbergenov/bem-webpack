@@ -1,0 +1,33 @@
+{
+  "name": "examples",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "webpack-cli": "^3.1.0"
+  },
+  "devDependencies": {
+    "css-loader": "^1.0.0",
+    "fast-sass-loader": "^1.4.6",
+    "file-loader": "^2.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "node-sass": "^4.9.3",
+    "style-loader": "^0.23.0",
+    "webpack": "^4.17.1",
+    "webpack-dev-server": "^3.1.6"
+  },
+  "scripts": {
+    "dev": "webpack-dev-server --mode development",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArsenUtepbergenov/examples.git"
+  },
+  "author": "arsen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ArsenUtepbergenov/examples/issues"
+  },
+  "homepage": "https://github.com/ArsenUtepbergenov/examples#readme"
+}

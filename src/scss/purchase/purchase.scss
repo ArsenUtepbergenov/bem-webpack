@@ -1,0 +1,40 @@
+.purchase {
+  height: 150px;
+  background: linear-gradient(to right, #1c0404 0%,#603d31 100%);
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1180px;
+    height: 100%;
+    margin: auto;
+  }
+
+  &__span {
+    color: #d2b9a3;
+  }
+
+  &__description {
+
+  }
+
+  &__title {
+    color: white;
+  }
+
+  &__text {
+    color: #998675;
+  }
+
+  &__button {
+    text-transform: uppercase;
+    color: white;
+    background-color: #998675;
+    height: 50px;
+    width: 170px;
+    border-bottom: 3px solid #675646;
+    box-sizing: border-box;
+    border-radius: 4px;
+  }
+}
