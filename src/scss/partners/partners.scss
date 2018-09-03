@@ -2,4 +2,18 @@
   height: 490px;
   background: url(../../../img/bg-partners.jpg) center no-repeat;
   background-size: cover;
+  position: relative;
+
+  &__content {
+    height: 100%;
+    width: 1120px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__logo {
+    z-index: 2;
+  }
 }

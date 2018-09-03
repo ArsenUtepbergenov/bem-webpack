@@ -1,0 +1,14 @@
+.footer {
+  height: 600px;
+
+  &__content {
+    height: 500px;
+    background-color: #191919;
+  }
+
+  &__bottom-bar {
+    height: 100px;
+    background-color: #111111;
+    color: grey;
+  }
+}
