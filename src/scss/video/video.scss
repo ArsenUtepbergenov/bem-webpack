@@ -1,0 +1,43 @@
+.video {
+  height: 700px;
+  background: url(../../../img/bg-video.jpg) center no-repeat;
+  background-size: cover;
+  display: flex;
+  position: relative;
+
+  &__content {
+    height: 300px;
+    width: 550px;
+    margin: auto;
+    z-index: 2;
+    text-align: center;
+  }
+
+  &__play {
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    cursor: pointer;
+  }
+
+  &__icon {
+    margin: auto;
+  }
+
+  &__duration {
+    color: #c7b09c;
+  }
+
+  &--title {
+    padding-top: 50px;
+    color: white;
+  }
+
+  &--text {
+    color: white;
+    width: 100%;
+  }
+}

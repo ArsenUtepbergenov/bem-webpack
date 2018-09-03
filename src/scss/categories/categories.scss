@@ -1,0 +1,22 @@
+.categories {
+  width: 605px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 40px;
+
+  &__button {
+    background-color: white;
+    color: #666666;
+    border: 1px solid #666666;
+    border-radius: 4px;
+    padding: 7px 22px;
+    box-sizing: border-box;
+  }
+
+  &--active {
+    color: white;
+    border-color: #998675;
+    background-color: #998675;
+  }
+}

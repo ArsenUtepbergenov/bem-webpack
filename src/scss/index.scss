@@ -27,9 +27,21 @@ a, button {
   cursor: pointer;
 }
 
+@import "./bg-dark/bg-dark.scss";
 @import "./header/header.scss";
 @import "./navbar/navbar.scss";
+@import "./main-button/main-button.scss";
 @import "./slider/slider.scss";
 @import "./services/services.scss";
 @import "./ideas/ideas.scss";
 @import "./purchase/purchase.scss";
+@import "./projects/projects.scss";
+@import "./categories/categories.scss";
+@import "./section-description/section-description.scss";
+@import "./card/card.scss";
+@import "./grid/grid.scss";
+@import "./posts/posts.scss";
+@import "./partners/partners.scss";
+@import "./counters/counters.scss";
+@import "./video/video.scss";
+@import "./for-mobile/for-mobile.scss";

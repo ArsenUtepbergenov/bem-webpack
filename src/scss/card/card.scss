@@ -1,0 +1,56 @@
+.card {
+  height: 335px;
+  width: 370px;
+  cursor: pointer;
+  position: relative;
+
+  &__img {
+    height: 100%;
+    width: 100%;
+  }
+
+  &__triangle {
+    width: 0;
+	  height: 0;
+    position: absolute;
+    left: 20px;
+    bottom: 100px;
+	  border-left: 18px solid transparent;
+	  border-right: 18px solid transparent;
+	  border-bottom: 12px solid #fbfaf8;
+  }
+
+  &__panel {
+    height: 100px;
+    width: 100%;
+    background-color: #fbfaf8;
+    position: absolute;
+    bottom: 0;
+    padding-left: 30px;
+    box-sizing: border-box;
+  }
+
+  &__title {
+    color: #d2b9a3;
+  }
+
+  &__text {
+    color: #a0a0a0;
+  }
+
+  &:hover &__panel {
+    background-color: #362f2d;
+  }
+
+  &:hover &__title {
+    color: white;
+  }
+
+  &:hover &__text {
+    color: #d2b9a3;
+  }
+
+  &:hover &__triangle {
+    border-bottom-color: #362f2d;
+  }
+}

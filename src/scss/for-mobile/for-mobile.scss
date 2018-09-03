@@ -1,0 +1,17 @@
+.for-mobile {
+  height: 700px;
+  background-color: white;
+
+  &__content {
+    height: 100%;
+    width: 1130px;
+    margin: auto;
+    position: relative;
+  }
+
+  &__img {
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+  }
+}
