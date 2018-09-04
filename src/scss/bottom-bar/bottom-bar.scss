@@ -1,0 +1,15 @@
+.bottom-bar {
+  height: 100px;
+  background-color: #111111;
+  color: grey;
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1180px;
+    margin: auto;
+    height: 100%;
+    font-size: 0.8em;
+  }
+}
